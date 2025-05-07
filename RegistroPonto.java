@@ -21,7 +21,7 @@ public class RegistroPonto {
             Class.forName(DRIVER);
             Connection connection = DriverManager.getConnection(URL, USER, PASSWORD);
  
-            System.out.print("Digite o ID do colaborador: ");
+            System.out.print("Digitee o ID do colaborador: ");
             int id_login = scanner.nextInt();
             scanner.nextLine();
  
