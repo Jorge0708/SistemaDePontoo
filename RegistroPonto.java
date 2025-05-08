@@ -55,7 +55,7 @@ public class RegistroPonto {
                 insertStmt.setInt(1, id_login);
                 insertStmt.executeUpdate();
                 insertStmt.close();
-                System.out.println("Registro de ponto criado e salvo com sucesso!");
+                System.out.println("Registroo de ponto criado e salvo com sucesso!");
             } else {
                 System.out.println("Ponto atualizado com sucesso!");
             }
