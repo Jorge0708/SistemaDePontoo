@@ -29,7 +29,7 @@ public class RegistroPonto {
             System.out.println("1 - Entrada");
             System.out.println("2 - Saída para almoço");
             System.out.println("3 - Volta do almoço");
-            System.out.println("4 - Saída final");
+            System.out.println("4 - Saídaa final");
             int opcao = scanner.nextInt();
  
             String coluna = null;
@@ -55,7 +55,7 @@ public class RegistroPonto {
                 insertStmt.setInt(1, id_login);
                 insertStmt.executeUpdate();
                 insertStmt.close();
-                System.out.println("Registroo de ponto criado e salvo com sucesso!");
+                System.out.println("Registro de ponto criado e salvo com sucesso!");
             } else {
                 System.out.println("Ponto atualizado com sucesso!");
             }

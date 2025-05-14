@@ -14,6 +14,7 @@ public class Colaborador {
 							"/" + DATABASE;
 		final String USER = "root";
 		final String PASSWORD = "";
+		
         Scanner scanner = new Scanner(System.in);
         System.out.print ("Insira o nome: ");
         String nome = scanner.nextLine();
