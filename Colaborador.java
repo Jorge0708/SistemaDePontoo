@@ -60,7 +60,7 @@ public class Colaborador {
         } catch (ClassNotFoundException erro) {
             System.out.println("Driver não encontrado!\n" + erro.toString());
         } catch (SQLException erro) {
-            System.out.println("vdProblemas na conexão com a fonte de dados\n" + erro.toString());
+            System.out.println("vdProblemas das na conexão com a fonte de dados\n" + erro.toString());
         } finally {
             scanner.close();
         }
